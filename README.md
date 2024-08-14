@@ -15,12 +15,13 @@
   MONGODB_URL_LOCAL=mongodb://localhost:27017/productsdb
   ```
 4. Ensure MongoDB is running locally or on cluster
-  If you have MongoDB installed, you can type
+  If you have MongoDB installed then you can run it from the command line itself
   ```
   mongod
   ```
-  in the command line to run it
 5. Run the server
   ```
   node server.js
   ```
+
+> Note : Tools like Postman can be used to implement GET, POST, PUT and DELETE. Further, tools like MongoDB Compass can be used instead of the command line
